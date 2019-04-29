@@ -626,18 +626,17 @@ html.simpl.highDensityInbox:not(.splitView) .zA {
 
 /* Right and bottom padding on inbox and messages */
 html.simpl .aeF {
-	padding-right: 56px !important;
 	margin-bottom: 150px;
 }
 
 /* Max width inbox and conversation and add top padding */
 html.simpl .AO .aeF > .nH {
-	margin: 40px auto 0 auto;
-	max-width: 960px;
+	margin: 15px auto 0 auto;
+	max-width: 90%; 
 }
 @media only screen and (min-width: 1441.98px) {
 	html.simpl:not(.splitView) .AO .aeF > .nH {
-		max-width: 1100px;
+		max-width: 90%;
 	}
 }
 
